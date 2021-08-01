@@ -8,10 +8,15 @@ int main() {
 
    double width = 23.5;
    double height = 11.53;
-   double perimeter = 2.0 * (width + height);
-   double area = width * height;
+   double perimeter = 0.0;
+   double area = 0.0;
 
-   printf("Height:%g, Width:%g. The perimeter of the rectangle is = %g and the area = %g\n", height, width, perimeter,area);
+   perimeter = 2.0 * (width + height);
+   area = width * height;
+
+   printf("Width is = %.2f, Height is = %.2f, Perimeter = %f\n\n", width, height, perimeter);
+   printf("Area is = %.2f\n", area);
+
    return 0;
 
 }
