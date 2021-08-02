@@ -14,7 +14,7 @@ int main() {
    perimeter = 2.0 * (width + height);
    area = width * height;
 
-   printf("Width is = %.2f, Height is = %.2f, Perimeter = %f\n\n", width, height, perimeter);
+   printf("Width is = %.2f, Height is = %.2f, Perimeter = %.2f\n\n", width, height, perimeter);
    printf("Area is = %.2f\n", area);
 
    return 0;
